@@ -27,6 +27,8 @@ class Preprocessing:
 
         data.GarageFinish.replace(np.nan, "NoGarage", inplace=True)
 
+        #ssdf
+
 
 
         imputer = SimpleImputer(
